@@ -13,6 +13,7 @@ void main()
     gets( d );
     
     
+    
     //int a;
     //int b;
     int c;
