@@ -2,9 +2,9 @@
 
 void main()
 {
-    int s[1];
-    int d[1];
-    int t[1];
+    int s[100];
+    int d[100];
+    int t[100];
     
     printf( "enter time:  ");
     gets( t[100] );
