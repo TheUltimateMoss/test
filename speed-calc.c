@@ -2,25 +2,17 @@
 
 void main()
 {
-    int s[0];
-    int d[0];
-    int t[0];
-
+    int s[1];
+    int d[1];
+    int t[1];
+    
     printf( "enter time:  ");
-    gets( t );
-
+    gets( t[100] );
+    
     printf("enter distance:  ");
-    gets( d );
+    gets( d[100] );
     
+    s[100]=d[100]/t[100];
     
-    
-    //int a;
-    //int b;
-    int c;
-    
-    //a=d;
-    //b=t;
-    //c=a/b;
-    
-    printf("%d", c);
+    printf("%d", s[100]);
 }
