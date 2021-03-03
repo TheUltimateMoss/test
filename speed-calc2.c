@@ -2,15 +2,15 @@
 
 int main()
 {
-    int speed;
-    int time;
-    int distance;
+    int s;
+    int t;
+    int d;
     
     distance=6;
-    time=2;
+    time=2;   
     
-    
-    speed=distance/time;
+    //speed=distance/time
+    s=d/t;
     
     printf("%d", speed);
 }
